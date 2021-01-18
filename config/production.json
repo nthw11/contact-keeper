@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://contact-keeper-user:A73saYrV5RuEERlM@cluster0.8ie9l.mongodb.net/contact-keeper?retryWrites=true&w=majority",
+  "jwtSecret": "alfie's going crazy!"
+}
