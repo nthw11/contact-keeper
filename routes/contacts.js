@@ -17,7 +17,7 @@ router.get('/', auth, async (req, res) => {
     res.json(contacts);
   } catch (error) {
     console.error(err.message);
-    res.status(500).send('server errrror');
+    res.status(500).send('server error');
   }
 });
 
@@ -47,7 +47,7 @@ router.post(
       res.json(contact);
     } catch (error) {
       console.error(error.message);
-      res.status(500).send('server eeror');
+      res.status(500).send('server error');
     }
   }
 );
